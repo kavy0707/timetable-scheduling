@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Timetable Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>College Name</h1>
+        <form>
+            <div class="form-group">
+                <label for="branch">Branch</label>
+                <input type="text" id="branch" name="branch" required>
+            </div>
+            <div class="form-group">
+                <label for="sem">Sem</label>
+                <input type="text" id="sem" name="sem" required>
+            </div>
+            <div class="form-group">
+                <div class="degree">
+                    <div class="d1">
+                        <label for="degree">Degree</label>
+                        <input type="text" id="degree" name="degree" required>
+                    </div>
+                    <div class="d2">
+                        <label for="requiredHours">Required Hours</label>
+                        <input type="text" id="requiredHours" name="requiredHours" required>
+                    </div>
+                    <div>
+                        <label for="noOfClasses">No of Classes</label>
+                        <input type="text" id="noOfClasses" name="noOfClasses" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Subject:</label>
+                <div id="subject-section" class="sub">
+                    <div class="sub-row">
+                        <div>
+                            <label for="subjectName">Name</label>
+                            <input type="text" class="subject-name" name="subjectName" required>
+                        </div>
+                        <div>
+                            <label for="hoursPerWeek">Hours per Week</label>
+                            <input type="text" class="hours-per-week" name="hoursPerWeek" required>
+                        </div>
+                        <button type="button" id="add-subject-btn">+</button>
+                        <button type="button" id="remove-btn">-</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group" id="faculty">
+                <label>Faculty:</label>
+                <div id="faculty-section" class="faculty">
+                    <div class="faculty-row">
+                        <div>
+                            <label for="facultyName">Name</label>
+                            <input type="text" class="faculty-name" name="facultyName" required>
+                        </div>
+                        <div>
+                            <label>Availability</label>
+                            <div class="availability">
+                                <input type="checkbox" name="availability" value="Mon"> Mon
+                                <input type="checkbox" name="availability" value="Tue"> Tue
+                                <input type="checkbox" name="availability" value="Wed"> Wed
+                                <input type="checkbox" name="availability" value="Thu"> Thu
+                                <input type="checkbox" name="availability" value="Fri"> Fri
+                            </div>
+                        </div>
+                        <button type="button" id="add-faculty-btn">+</button>
+                        <button type="button" id="remove-faculty-btn">-</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Corrected Form Group for Start Time, End Time, and Break Time -->
+            <div class="form-group">
+                <label for="startTime">Start time</label>
+                <input type="text" id="startTime" name="startTime" required>
+            </div>
+            <div class="form-group">
+                <label for="endTime">End time</label>
+                <input type="text" id="endTime" name="endTime" required>
+            </div>
+            <div class="form-group">
+                <label for="breakTime">Break time</label>
+                <input type="text" id="breakTime" name="breakTime" required>
+            </div>
+
+            <div class="form-group">
+                <center><button type="submit">Submit</button></center>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

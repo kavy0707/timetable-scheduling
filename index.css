@@ -1,0 +1,273 @@
+body{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    font-family: 'popins';
+}
+
+.header{
+    background-color: #8ab698;
+    display: flex;
+    height: 70px;
+    border: 2px solid #d6a1a1;
+}
+
+.logo img{
+    width: 60px;
+    height: 61px;
+    margin: 7px 0px 0px 44px;
+}
+
+.container{
+    display: flex;
+    margin-top: 22px;
+    margin-left: 200px;
+}
+
+.item a{
+    text-decoration: none;
+    color: white;
+    margin-left: 59px;
+    font-size: large;
+}
+#logbtn{
+    margin-left: 187px;
+    font-size: medium;
+    border-radius: 7px;
+    height: 35px;
+    background-color: #b3b3ca;
+    cursor: pointer;
+}
+.item a:hover{
+    color: rgb(216, 36, 36);
+    background-color: white;
+    font-size:larger ;
+    border: 2px solid rgb(161, 101, 101);
+    border-radius: 7px;
+    margin-top: 30px;
+
+}
+
+/* // middle */
+/* Assuming this is your existing CSS file (index.css) */
+
+/* Style for the middle section */
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding if needed */
+    background-color: #f6faff;
+}
+
+.section-1 {
+    margin-bottom: 20px; /* Add margin below the text section */
+}
+.section-1 h1 {
+    font-size: 3rem; /* Adjust size as needed */
+    font-weight: bold; /* Optional: Makes the text bold */
+    color: black; /* Optional: Changes color */
+    margin-bottom: 20px; /* Optional: Adds space below the heading */
+}
+.demo {
+    margin-top: 20px;
+    padding: 7px 13px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 2px;
+}
+
+.demo:hover {
+    background-color: #0056b3; /* Darker background on hover */
+}
+
+/* // section-2  */
+/* Assuming this is your existing CSS file (index.css) */
+
+/* Style for the middle section */
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding if needed */
+}
+
+.section-1 {
+    margin-bottom: 20px; /* Add margin below the text section */
+}
+
+.demo {
+    margin-top: 20px; /* Add margin above the button */
+    padding: 10px 20px; /* Add padding for a better button appearance */
+    background-color: #007BFF; /* Set background color */
+    color: white; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Round corners */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 16px; /* Set font size */
+}
+
+.demo:hover {
+    background-color: #0056b3; /* Darker background on hover */
+}
+.section-2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.section-2 h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+.image img {
+    width: 182px;
+    height: 160px;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .images {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+
+/* contact us  */
+/* Contact Us Section */
+#contact-us {
+    background-color: #f0f8ff; /* Light background color */
+    padding: 40px 20px; /* Add padding for spacing */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 800px; /* Maximum width for better readability */
+    margin: 30px auto; /* Center and add margin */
+    text-align: center; /* Center align text */
+}
+
+#contact-us h2 {
+    font-size: 2em; /* Larger font size */
+    color: #2c3e50; /* Darker color for the heading */
+    margin-bottom: 20px; /* Margin below the heading */
+}
+
+#contact-us p {
+    font-size: 1.2em; /* Slightly larger font size */
+    color: #34495e; /* Darker text color */
+    margin-bottom: 20px; /* Margin below the paragraph */
+}
+
+#contact-us .contact-info {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+#contact-us .contact-info li {
+    font-size: 1.1em; /* Font size for list items */
+    color: #2c3e50; /* Dark text color */
+    margin-bottom: 10px; /* Space between list items */
+}
+
+#contact-us .contact-info li strong {
+    color: #e74c3c; /* Highlight labels with a distinct color */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General footer styling */
+.footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e1e1e1;
+    text-align: center;
+    height: auto;
+    padding: 10px 0; /* Ensure some padding for better spacing */
+    margin-top: 5px; /* This ensures the footer is pushed to the bottom */
+    margin-bottom: 0px;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.footer-nav {
+    margin-top: 10px;
+}
+
+.footer-nav a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
